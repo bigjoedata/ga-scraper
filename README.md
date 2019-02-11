@@ -1,6 +1,8 @@
 # ga-scraper
 
-Experimentation, trial & error led me to boil down to boil GA down to two distinct groups of reports: Events related & non events related.  There's also a max 10 dimensions & 20 metrics in any given report. These scripts are my best stab at getting the most of each.
+This is a quick & dirty way to pull GA data & store on your data lake.
+
+Experimentation, trial & error led me to boil down to boil GA down to two distinct groups of reports: Events related & non events related.  There's also a max 10 dimensions & 20 metrics in any given report. These scripts are my best stab at getting the most of each. No PII is transferred (Not that GA even has any).
 
 Make sure to create the "_Events" & "_Non_Events" folders or change path in the pandas to_csv function
 
