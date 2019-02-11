@@ -1,0 +1,27 @@
+#Install as needed. IIRC, you need numpy, google-auth google-auth-oauthlib google-auth-httplib2 for GA. Maybe requests.
+#You may need to change depending on your python implementation. 
+#I really should do a proper export out of my VENV, but oh well.
+
+!python -m pip install --upgrade PyHamcrest
+!python -m pip install --upgrade jupyter_contrib_nbextensions
+!python -m pip install --upgrade selenium
+!python -m pip install --upgrade tweepy
+!python -m pip install --upgrade nltk
+!python -m pip install --upgrade twython
+!python -m pip install --upgrade textblob
+!python -m pip install --upgrade sklearn
+!python -m pip install --upgrade numpy
+!python -m pip install --upgrade matplotlib
+!python -m pip install --upgrade seaborn
+!python -m pip install --upgrade vaderSentiment
+!python -m pip install --upgrade pyDrive
+!python -m pip install --upgrade jsonpickle
+!python -m pip install tweetfeels
+!python -m pip install --upgrade datetime
+!python3 -m nltk.downloader vader_lexicon
+!python -m pip install --upgrade google-api-python-client
+!python -m pip install --upgrade gsutil
+!python -m pip install --upgrade libffi-devel
+!python -m pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
+!python -m pip install --upgrade requests
+!python -m pip install --upgrade dfareporting_utils
