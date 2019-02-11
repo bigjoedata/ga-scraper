@@ -12,6 +12,8 @@ It will work with Python 3.7x & might even work with lower versions. Try & find 
 
 Sample command line call: python ga_dl-NON_EVENTS.py Report_Name VIEWID YYYY-MM-DD
 
+Data will be stored in a csv* (Or optional MySQL DB
+
 Yes, this is a single day's analytics, so you will need to call for each day, each suite, etc. Paging isn't implemented. So, if any of your calls have >100K lines, you will need to implement paging. Easy to add, I just didn't due to lack of necessity.
 
 This is one of the most straightforward guides I’ve seen for getting google authentication
