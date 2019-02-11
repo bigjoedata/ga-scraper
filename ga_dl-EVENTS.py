@@ -122,3 +122,9 @@ pierced['segment']=thetitle
 pierced['reporttype']=reporttype
 filename=thetitle+'_'+reporttype+'_'+theepoch+'.csv'
 pierced.to_csv('./_events/'+filename,index=False,header=True)
+
+#Optionally uncomment & add in creds + table name to store in a mysql compliant db
+
+#from sqlalchemy import create_engine
+#engine = create_engine('mysql://%s:%s@%s/%s?charset=utf8mb4' % (MY_SQL_USER, MY_SQL_PASSWORK, MY_SQL_HOST, MY_SQL_DB), encoding='utf8')
+#pierced.to_sql(con=engine, name='MY_SQL_TABLE_NAME', if_exists='append')
