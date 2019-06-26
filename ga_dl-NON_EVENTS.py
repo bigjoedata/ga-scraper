@@ -40,8 +40,8 @@ sample_request = {
           'startDate': theepoch,
           'endDate': theepoch
       },
-      'dimensions': [{'name': 'ga:campaign'}, {'name': 'ga:devicecategory'}, {'name': 'ga:city'}, {'name': 'ga:country'}, {'name': 'ga:userType'}, {'name': 'ga:sourceMedium'}, {'name': 'ga:landingPagePath'}, {'name': 'ga:referralPath'}, {'name': 'ga:pageDepth'}],
-      'metrics': [{'expression': 'ga:Users'},  {'expression': 'ga:bounces'}, {'expression': 'ga:pageviews'}, {'expression': 'ga:sessions'},  {'expression': 'ga:organicSearches'},  {'expression': 'ga:totalEvents'}, {'expression': 'ga:sessionDuration'}, {'expression': 'ga:uniqueEvents'}, {'expression': 'ga:sessionsWithEvent'}],
+      'dimensions': [{'name': 'ga:devicecategory'}, {'name': 'ga:city'}, {'name': 'ga:country'}, {'name': 'ga:userType'}, {'name': 'ga:sourceMedium'}, {'name': 'ga:landingPagePath'}, {'name': 'ga:pagePath'}, {'name': 'ga:referralPath'}, {'name': 'ga:pageDepth'}],
+      'metrics': [{'expression': 'ga:Users'},  {'expression': 'ga:bounces'}, {'expression': 'ga:pageviews'}, {'expression': 'ga:sessions'},  {'expression': 'ga:totalEvents'}, {'expression': 'ga:sessionDuration'}, {'expression': 'ga:uniqueEvents'}, {'expression': 'ga:sessionsWithEvent'}, {'expression': 'ga:uniquePageviews'}, {'expression': 'ga:exits'}],
       "pageSize" : 100000
     }
 
